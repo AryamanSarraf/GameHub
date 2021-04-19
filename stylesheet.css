@@ -1,0 +1,50 @@
+html, body, ul, ol, li, h1, 
+h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+    height:50px;
+    background-color:#FBF6D9; 
+    border-bottom: 1px solid black;
+}
+
+header p {
+    padding-top: 30px;
+    color:black;
+}
+
+.top-wrapper {
+    background-color:#98AFC7;
+    height:1000px;
+    padding-top: 70px;
+    padding-left: 40px;
+}
+
+.game-list {
+    margin-bottom: 70px;
+}
+
+.BB {
+    display: inline-block;
+    background-color: green;
+    color:white;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: 120px;
+    border-radius: 15px;
+  }
