@@ -17,34 +17,65 @@ a {
 }
 
 header {
-    height:50px;
-    background-color:#FBF6D9; 
-    border-bottom: 1px solid black;
+  height:50px;
+  background-color:#FBF6D9; 
+  border-bottom: 1px solid black;
 }
 
 header p {
-    padding-top: 30px;
-    color:black;
+  padding-top: 30px;
+  color:black;
+}
+
+.container {
+  height:100%;
 }
 
 .top-wrapper {
-    background-color:#98AFC7;
-    height:2000px;
-    padding-top: 70px;
-    padding-left: 40px;
+  background-color:#98AFC7;
+  height:1000px;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+@media(max-width:670px) {
+  .header {
+    height: 70px;
+  }
+  .top-wrapper {
+    height: 100%;
+  }
+}
+
+.error-message { 
+  margin-left: 200px; 
 }
 
 .game-list {
-    margin-bottom: 70px;
+  margin: 70px 0;
 }
 
 .BB {
-    display: inline-block;
-    background-color: green;
-    color:white;
-    font-size: 18px;
-    padding: 10px 20px;
-    margin-top: 20px;
-    margin-left: 120px;
-    border-radius: 15px;
+  display: inline-block;
+  background-color: #5dca88;
+  color:white; 
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px 24px;
+  margin-top: 20px;
+  margin-left: 120px;
+  border-radius: 4px;
+  box-shadow: 0 7px #1a7940;
+  opacity: 0.8;
   }
+
+ .BB:hover { 
+ 	opacity: 1; 
+ }
+
+ .BB:active {
+ 	position: relative;
+ 	top: 7px;
+ 	box-shadow: none;
+ 	opacity: 1;
+ }
