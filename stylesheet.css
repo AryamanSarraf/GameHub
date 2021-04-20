@@ -27,24 +27,12 @@ header p {
   color:black;
 }
 
-.container {
-  height:100%;
-}
 
 .top-wrapper {
   background-color:#98AFC7;
   height:1000px;
   padding-top: 10px;
   padding-left: 40px;
-}
-
-@media(max-width:700px) {
-  .header {
-    height: 200px;
-  }
-  .top-wrapper {
-    height: 5000px;
-  }
 }
 
 .error-message { 
@@ -78,4 +66,10 @@ header p {
  	top: 7px;
  	box-shadow: none;
  	opacity: 1;
+ }
+
+ @media(max-width: 700px) {
+  .error-message {
+    margin-left: 80px;
+  }
  }
