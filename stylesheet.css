@@ -38,9 +38,9 @@ header p {
   padding-left: 40px;
 }
 
-@media(max-width:670px) {
+@media(max-width:700px) {
   .header {
-    height: 70px;
+    height: 100px;
   }
   .top-wrapper {
     height: 100%;
