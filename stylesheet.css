@@ -40,10 +40,10 @@ header p {
 
 @media(max-width:700px) {
   .header {
-    height: 120px;
+    height: 200px;
   }
   .top-wrapper {
-    height: 700px;
+    height: 5000px;
   }
 }
 
